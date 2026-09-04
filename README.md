@@ -56,8 +56,11 @@ It is described in terms of the percentage of observation on either side that ar
 
 
 #### Mean absolute deviation
-* **Note:**
+* **Note:** the average of the absolute differences between each observation and the mean. It measures how far, on average, the observations lie from the mean.
 * **Statistical notation:** $\text{AAD}(X) = \frac{1}{N} \sum_{i=1}^{N} |X_i - \bar{X}|$
 
 * **R code:** For a vector `X <- c(56, 31, 56, 8, 32)`,
 * to calculate the AAD, `aad(X)` 
+
+
+#### Variance
