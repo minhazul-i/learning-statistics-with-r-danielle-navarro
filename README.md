@@ -19,13 +19,13 @@ In the `lsr` package -
 
 
 #### Median
-*  **Note:** Calculates the middle value
+* **Note:** Calculates the middle value
 * **R code:** `median(x = afl_margins)`
 
 
 
 #### Trimmed Mean
-*  **Note:** Discards the most extreme examples on both ends (i.e., the largest and the smallest), and then take the mean of everything else. It preserves the best characteristics of the mean and the median: just like a median, you aren’t highly influenced by extreme outliers, but like the mean, you “use” more than one of the observations.
+* **Note:** Discards the most extreme examples on both ends (i.e., the largest and the smallest), and then take the mean of everything else. It preserves the best characteristics of the mean and the median: just like a median, you aren’t highly influenced by extreme outliers, but like the mean, you “use” more than one of the observations.
 
 It is described in terms of the percentage of observation on either side that are discarded. So, for instance, a 10% trimmed mean discards the largest 10% of the observations and the smallest 10% of the observations, and then takes the mean of the remaining 80% of the observations. Not surprisingly, the 0% trimmed mean is just the regular mean, and the 50% trimmed mean is the median. In that sense, trimmed means provide a whole family of central tendency measures that span the range from the mean to the median.
 
@@ -34,3 +34,4 @@ It is described in terms of the percentage of observation on either side that ar
 
 
 #### Mode
+* **R code:** `modeOf(x = afl_finalists)` (only in lsr package), for the modal frequency: `maxFreq(x = afl_finalists)`
