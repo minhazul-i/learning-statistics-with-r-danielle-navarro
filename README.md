@@ -3,12 +3,10 @@ A personal journey through Learning Statistics with R by Danielle Navarro — a 
 
 ## Chapter 5: Descriptive Statistics
 ---
-In the `lsr` package -
-
-`who()` - is used to see what variables are stored in a loaded file
+In the `lsr` package - `who()` - inspects active variables in the environment.
 
 ### Measures of central tendency
-**Mean:** Statistical notation -
-$$
-\bar{X} = \frac{1}{N} \sum_{i=1}^{N} X_i
-$$
+#### Mean
+* **Statistical notation:** $\bar{X} = \frac{1}{N} \sum_{i=1}^{N} X_i$
+* **R code:** `mean(x = afl_margins)`
+*  **Note:** Calculate the arithmetic average of a numeric variable.
