@@ -8,4 +8,7 @@ In the `lsr` package -
 `who()` - is used to see what variables are stored in a loaded file
 
 ### Measures of central tendency
-**Mean:** Statistical notation - \bar{X} = \frac{1}{N} \sum_{i=1}^{N} X_i
+**Mean:** Statistical notation -
+$$
+\bar{X} = \frac{1}{N} \sum_{i=1}^{N} X_i
+$$
