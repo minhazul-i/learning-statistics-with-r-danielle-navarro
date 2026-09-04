@@ -5,9 +5,9 @@ A personal journey through Learning Statistics with R by Danielle Navarro — a 
 ---
 In the `lsr` package - 
 
-`who()` - inspects active variables in the environment.
-`sort()` - display the observations in increasing numerical order.
-
+* `who()` - inspects active variables in the environment.
+* `sort()` - display the observations in increasing numerical order.
+* `table()` - counts the frequency of each unique value and displays the resulting frequency table
 
 
 
