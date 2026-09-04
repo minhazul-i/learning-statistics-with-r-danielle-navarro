@@ -64,3 +64,7 @@ It is described in terms of the percentage of observation on either side that ar
 
 
 #### Variance
+* **Statistical notation:** The variance of a data set X is sometimes written as `Var(X)`, but it’s more commonly denoted `s^2`
+* $$
+\operatorname{Var}(X) = \frac{1}{N}\sum_{i=1}^{N}(X_i-\bar{X})^2
+$$
