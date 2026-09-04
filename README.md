@@ -11,7 +11,7 @@ In the `lsr` package -
 
 
 
-### Measures of central tendency
+### 5.1 Measures of central tendency / which values are “in the middle” or “popular” in the data
 #### Mean
 *  **Note:** Calculates the arithmetic average of a numeric variable.
 * **Statistical notation:** $\bar{X} = \frac{1}{N} \sum_{i=1}^{N} X_i$
@@ -36,3 +36,7 @@ It is described in terms of the percentage of observation on either side that ar
 #### Mode
 * **Note:** the value that occurs most frequently.
 * **R code:** `modeOf(x = afl_finalists)` (only in lsr package), for the modal frequency: `maxFreq(x = afl_finalists)`
+
+
+
+### 5.2 Measures of variability / how “spread out” are the data? 
