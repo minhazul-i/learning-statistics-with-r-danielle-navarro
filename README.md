@@ -65,12 +65,15 @@ It is described in terms of the percentage of observation on either side that ar
 
 #### Variance / mean square deviation
 * **Statistical notation:** The variance of a data set X is sometimes written as `Var(X)`, but it’s more commonly denoted `s^2`
-* For population vvariance (rarely used),
+* For population variance (rarely used),
+
 $$
 Var(X) = \frac{1}{N}\sum_{i=1}^{N}(X_i-\bar{X})^2
 $$
 
 * For sample variance,
+
 $$
-Var(X) = \frac{1}{1-N}\sum_{i=1}^{N}(X_i-\bar{X})^2
+Var(X) = \frac{1}{N-1}\sum_{i=1}^{N}(X_i-\bar{X})^2
 $$
+
