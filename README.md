@@ -96,3 +96,6 @@ $$
 $$
 s = \sqrt{\frac{1}{N-1}\sum_{i=1}^{n}(X_i-\bar{X})^2}
 $$
+
+* **R code:**  to calculate the sample standard deviation, `sd(afl_margins)`
+
