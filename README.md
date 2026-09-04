@@ -40,3 +40,11 @@ It is described in terms of the percentage of observation on either side that ar
 
 
 ### 5.2 Measures of variability / how “spread out” are the data? 
+#### Range
+* **Note:** the biggest value minus the smallest value.
+* **R code:** `range()` outputs both the minimum value and the maximum value in a vector: `range(afl_margins)`
+
+
+#### Interquartile range
+* **Note:** It calculates the difference between the 25th quantile and the 75th quantile / percentiles. The 10th percentile of a data set is the smallest number x, such that 10% of the data is less than x. This way, the median of a data set is its 50th quantile / percentile.
+* **R code:** for calculating the 50% quantile: `quantile(x = afl_margins, probs = .5)`, to get the 25th and 75th percentile: `quantile(x = afl_margins, probs = c(.25, .75))`, to get the IQR: `IQR(x = afl_margins)`
