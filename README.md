@@ -5,4 +5,7 @@ A personal journey through Learning Statistics with R by Danielle Navarro — a 
 ---
 In the `lsr` package -
 
-`who()` - is used to see what variables are stored in a loaded the file
+`who()` - is used to see what variables are stored in a loaded file
+
+### Measures of central tendency
+**Mean:** Statistical notation - \bar{X} = \frac{1}{N} \sum_{i=1}^{N} X_i
