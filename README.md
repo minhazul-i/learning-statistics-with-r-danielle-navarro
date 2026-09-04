@@ -34,4 +34,5 @@ It is described in terms of the percentage of observation on either side that ar
 
 
 #### Mode
+* **Note:** the value that occurs most frequently.
 * **R code:** `modeOf(x = afl_finalists)` (only in lsr package), for the modal frequency: `maxFreq(x = afl_finalists)`
