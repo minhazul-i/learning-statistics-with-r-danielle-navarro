@@ -64,6 +64,7 @@ It is described in terms of the percentage of observation on either side that ar
 
 
 #### Variance / mean square deviation
+* **Note:** Average of the squared deviations from the mean
 * **Statistical notation:** The variance of a data set X is sometimes written as `Var(X)`, but it’s more commonly denoted `s^2`
 * For population variance (rarely used),
 
@@ -71,9 +72,27 @@ $$
 Var(X) = \frac{1}{N}\sum_{i=1}^{N}(X_i-\bar{X})^2
 $$
 
-* For sample variance,
+* For sample variance (R by default uses this when var() function is used),
 
 $$
 Var(X) = \frac{1}{N-1}\sum_{i=1}^{N}(X_i-\bar{X})^2
 $$
 
+* **R code:**  For calculating the sample variance, `var(afl_margins)`
+
+
+
+#### Standard deviation / root mean squared deviation (RMSD)
+* **Note:** It is the square root of variance, fixes the unit. 
+* **Statistical notation:** Expressed as "s", “sd” and “std dev".
+* For population SD (rarely used) ,
+
+$$
+\sigma = \sqrt{\frac{1}{N}\sum_{i=1}^{N}(X_i-\bar{X})^2}
+$$
+
+* For sample SD (R by default uses this when sd() function is used),
+
+$$
+s = \sqrt{\frac{1}{N-1}\sum_{i=1}^{n}(X_i-\bar{X})^2}
+$$
