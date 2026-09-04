@@ -53,3 +53,11 @@ It is described in terms of the percentage of observation on either side that ar
 * for calculating the 50% quantile: `quantile(x = afl_margins, probs = .5)`,
 * to get the 25th and 75th percentile: `quantile(x = afl_margins, probs = c(.25, .75))`,
 * to get the IQR: `IQR(x = afl_margins)`
+
+
+#### Mean absolute deviation
+* **Note:**
+* **Statistical notation:** $\text{AAD}(X) = \frac{1}{N} \sum_{i=1}^{N} |X_i - \bar{X}|$
+
+* **R code:** For a vector `X <- c(56, 31, 56, 8, 32)`,
+* to calculate the AAD, `aad(X)` 
