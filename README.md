@@ -47,4 +47,7 @@ It is described in terms of the percentage of observation on either side that ar
 
 #### Interquartile range
 * **Note:** It calculates the difference between the 25th quantile and the 75th quantile / percentiles. The 10th percentile of a data set is the smallest number x, such that 10% of the data is less than x. This way, the median of a data set is its 50th quantile / percentile. For a better interpretation of IQR, it is the range spanned by the “middle half” of the data.
-* **R code:** for calculating the 50% quantile: `quantile(x = afl_margins, probs = .5)`, to get the 25th and 75th percentile: `quantile(x = afl_margins, probs = c(.25, .75))`, to get the IQR: `IQR(x = afl_margins)`
+* **R code:**
+* for calculating the 50% quantile: `quantile(x = afl_margins, probs = .5)`,
+* to get the 25th and 75th percentile: `quantile(x = afl_margins, probs = c(.25, .75))`,
+* to get the IQR: `IQR(x = afl_margins)`
