@@ -8,7 +8,7 @@ In the `lsr` package - `who()` - inspects active variables in the environment.
 ### Measures of central tendency
 #### Mean
 * **Statistical notation:** $\bar{X} = \frac{1}{N} \sum_{i=1}^{N} X_i$
-* **R code:** mean for all observations: `mean(x = afl_margins)`, or just ``mean(afl_margins)`, mean for the first five observations: `mean(afl_margins[1:5])`
+* **R code:** mean for all observations: `mean(x = afl_margins)`, or just `mean(afl_margins)`, mean for the first five observations: `mean(afl_margins[1:5])`
 *  **Note:** Calculates the arithmetic average of a numeric variable.
 
 *  
